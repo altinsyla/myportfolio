@@ -1,0 +1,14 @@
+@import './_styles.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: lato-light;
+}
+.App{
+  border: 1px solid black;
+  margin: 0 5% 0 5%;
+}
