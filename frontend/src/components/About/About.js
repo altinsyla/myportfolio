@@ -3,7 +3,9 @@ import '../About/About.scss';
 
 function About() {
   return (
-    <div>About</div>
+    <div className='about-container'>
+    <h2>About</h2>
+    </div>
   )
 }
 

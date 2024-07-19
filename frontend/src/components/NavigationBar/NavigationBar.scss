@@ -1,0 +1,33 @@
+@import '../../styles.scss';
+
+.navbar-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5% 0 5%;
+  background-color: white;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.navbartabs {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+}
+
+a.navbar-links {
+  text-decoration: none;
+  color: black;
+  font-family: lato-bold;
+}
