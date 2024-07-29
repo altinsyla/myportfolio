@@ -1,1 +1,49 @@
 @import '../../styles.scss';
+
+.about-container {
+  margin: 10% 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  display: flex;
+  width: 100%;
+}
+
+.about-header h1 {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: lato-thin;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.about-text {
+  padding-right: 2rem;
+  text-align: center;
+  width: 50%;
+  font-size: 1.2rem;
+  font-family: lato-regular;
+}
+
+.about-image {
+  flex: 1;
+  width: 50%;
+}
+
+.about-image img {
+  border-radius: 50%;
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  margin-left: 25%;
+}
+  

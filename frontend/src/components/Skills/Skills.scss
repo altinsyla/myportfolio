@@ -1,1 +1,22 @@
-@import '../../styles.scss';
+@import "../../styles.scss";
+
+.grid-container {
+  margin: 10% 10%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 50px;
+  align-content: center;
+}
+
+.skills-icons {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.grid-item {
+  text-align: center;
+}
+.grid-item:hover {
+  transform: scale(1.2);
+}

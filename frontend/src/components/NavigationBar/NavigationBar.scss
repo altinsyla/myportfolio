@@ -6,8 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 5% 0 5%;
   background-color: white;
+  position: fixed;
 }
 
 .img-container {
@@ -18,12 +18,14 @@
 .logo {
   width: 80px;
   height: 80px;
+  margin-left: 5rem;
 }
 
 .navbartabs {
   display: flex;
   align-items: center;
   gap: 85px;
+  margin-right: 5rem;
 }
 
 a.navbar-links {
