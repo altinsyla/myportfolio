@@ -32,4 +32,9 @@ a.navbar-links {
   text-decoration: none;
   color: black;
   font-family: lato-bold;
+  font-size: 1.1rem;
+}
+
+a.navbar-links:hover{
+  border-bottom: 1px solid gray;
 }

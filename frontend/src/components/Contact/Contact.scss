@@ -1,1 +1,29 @@
-@import '../../styles.scss';
+@import "../../styles.scss";
+
+.contact-container {
+  margin: 0% 10%;
+}
+.skillsgrid-container {
+  margin: 5% 10%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  column-gap: 100px;
+  align-content: center;
+}
+
+.contact-items {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-icons {
+  width: 100px;
+  height: 100px;
+}
+
+.contact-icons:hover {
+  transform: scale(1.1);
+}
