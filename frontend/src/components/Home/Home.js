@@ -5,8 +5,19 @@ import About from '../About/About';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Home() {
+
+  const navigate = useNavigate();
+  const handleScroll = (event, section) => {
+    event.preventDefault();
+    navigate("/");
+    setTimeout(() => {
+      document.getElementById(section).scrollIntoView({ behavior: "smooth" });
+    }, 100); 
+  };
+
   return (
     <div>
       <div className='home-container' id="home">
@@ -18,7 +29,7 @@ function Home() {
         <div className='text-container'>
           <p><span className='highlight'>Hi!</span> I'm <span className='highlight'>Altin</span></p>
           <p>a<span className='highlight'> Web Developer</span></p>
-          <button className='contact-button'>Contact</button>
+          <Link to="/contact" className="contact-button" onClick={(event) => handleScroll(event, "contact")} style={{textDecoration: 'none'}}>Contact</Link>
         </div>
       </div>
       <div id="about">
