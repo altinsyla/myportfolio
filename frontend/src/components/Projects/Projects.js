@@ -35,7 +35,7 @@ function Projects() {
               </div>
             </div>
             <h2 className="project-title">InternNexus</h2>
-            <a href="https://github.com/altinsyla/InternNexus" target="_blank" rel="noopener noreferrer" className="github-link">
+            <a href="https://altinsyla.github.io/InternNexus/" target="_blank" rel="noopener noreferrer" className="github-link">
               <img src={github} alt='github-icon' className='projects-icons'/>
               </a>
           </div>
